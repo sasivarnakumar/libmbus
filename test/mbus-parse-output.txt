@@ -1,0 +1,544 @@
+
+ **************** mbus_parse **************** : 
+mbus_frame_print: Dumping M-Bus frame [type 4, 192 bytes]: 68 BA BA 68 08 00 72 80 18 20 17 92 15 01 07 7E 00 00 00 0E 13 87 83 86 43 00 00 0E 3A 00 00 00 00 00 00 0D FD 10 0C 20 20 30 38 38 31 30 32 30 45 37 31 0E 93 3C 00 00 00 00 00 00 04 6D 16 0F 73 23 44 6D 00 00 00 00 4E 13 00 00 00 00 00 00 0A 67 34 00 94 82 00 6D 0F 11 6C 23 9A 82 00 67 35 00 0A FD 74 10 32 0C 26 00 00 00 00 3C 26 29 23 00 00 C4 82 00 BA 4E 00 00 00 00 C4 82 00 BA 4F 00 00 00 00 D4 81 00 6D 00 00 00 00 DE 81 00 3A 00 00 00 00 00 00 A4 81 00 6D 00 00 00 00 AE 81 00 3A 95 72 96 94 42 00 CC 82 00 B8 5C 00 00 00 00 8C 03 A5 6C 00 00 00 00 01 FD 17 52 3E 16 
+
+ **************** mbus_frame_data_parse **************** : 
+mbus_frame_print: Dumping M-Bus frame [type 4, 192 bytes]: 68 BA BA 68 08 00 72 80 18 20 17 92 15 01 07 7E 00 00 00 0E 13 87 83 86 43 00 00 0E 3A 00 00 00 00 00 00 0D FD 10 0C 20 20 30 38 38 31 30 32 30 45 37 31 0E 93 3C 00 00 00 00 00 00 04 6D 16 0F 73 23 44 6D 00 00 00 00 4E 13 00 00 00 00 00 00 0A 67 34 00 94 82 00 6D 0F 11 6C 23 9A 82 00 67 35 00 0A FD 74 10 32 0C 26 00 00 00 00 3C 26 29 23 00 00 C4 82 00 BA 4E 00 00 00 00 C4 82 00 BA 4F 00 00 00 00 D4 81 00 6D 00 00 00 00 DE 81 00 3A 00 00 00 00 00 00 A4 81 00 6D 00 00 00 00 AE 81 00 3A 95 72 96 94 42 00 CC 82 00 B8 5C 00 00 00 00 8C 03 A5 6C 00 00 00 00 01 FD 17 52 3E 16 
+mbus_data_variable_header_print: ID           = 17201880
+mbus_data_variable_header_print: Manufacturer = 0x1592
+mbus_data_variable_header_print: Manufacturer = ELR
+mbus_data_variable_header_print: Version      = 0x01
+mbus_data_variable_header_print: Medium       = Water (0x07)
+mbus_data_variable_header_print: Access #     = 0x7E
+mbus_data_variable_header_print: Status       = 0x00
+mbus_data_variable_header_print: Signature    = 0x0000
+DIF               = 0E
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0E
+DATA LENGTH = 6
+VIF           = 13
+VIF.Extension = No
+VIF.Value     = 13
+
+DIF               = 0E
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0E
+DATA LENGTH = 6
+VIF           = 3A
+VIF.Extension = No
+VIF.Value     = 3A
+
+DIF               = 0D
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0D
+DATA LENGTH = 12
+VIF           = FD
+VIF.Extension = Yes
+VIF.Value     = 7D
+VIFE[0]           = 10
+VIFE[0].Extension = No
+VIFE[0].Value     = 10
+
+DIF               = 0E
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0E
+DATA LENGTH = 6
+VIF           = 93
+VIF.Extension = Yes
+VIF.Value     = 13
+VIFE[0]           = 3C
+VIFE[0].Extension = No
+VIFE[0].Value     = 3C
+
+DIF               = 04
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 04
+DATA LENGTH = 4
+VIF           = 6D
+VIF.Extension = No
+VIF.Value     = 6D
+
+DIF               = 44
+DIF.Extension     = No
+DIF.StorageNumber = 1
+DIF.Function      = Instantaneous value
+DIF.Data          = 04
+DATA LENGTH = 4
+VIF           = 6D
+VIF.Extension = No
+VIF.Value     = 6D
+
+DIF               = 4E
+DIF.Extension     = No
+DIF.StorageNumber = 1
+DIF.Function      = Instantaneous value
+DIF.Data          = 0E
+DATA LENGTH = 6
+VIF           = 13
+VIF.Extension = No
+VIF.Value     = 13
+
+DIF               = 0A
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0A
+DATA LENGTH = 2
+VIF           = 67
+VIF.Extension = No
+VIF.Value     = 67
+
+DIF               = 94
+DIF.Extension     = Yes
+DIF.StorageNumber = 0
+DIF.Function      = Minimum value
+DIF.Data          = 04
+DATA LENGTH = 4
+DIFE[0]               = 82
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 02
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 6D
+VIF.Extension = No
+VIF.Value     = 6D
+
+DIF               = 9A
+DIF.Extension     = Yes
+DIF.StorageNumber = 0
+DIF.Function      = Minimum value
+DIF.Data          = 0A
+DATA LENGTH = 2
+DIFE[0]               = 82
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 02
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 67
+VIF.Extension = No
+VIF.Value     = 67
+
+DIF               = 0A
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0A
+DATA LENGTH = 2
+VIF           = FD
+VIF.Extension = Yes
+VIF.Value     = 7D
+VIFE[0]           = 74
+VIFE[0].Extension = No
+VIFE[0].Value     = 74
+
+DIF               = 0C
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0C
+DATA LENGTH = 4
+VIF           = 26
+VIF.Extension = No
+VIF.Value     = 26
+
+DIF               = 3C
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Minimum value
+DIF.Data          = 0C
+DATA LENGTH = 4
+VIF           = 26
+VIF.Extension = No
+VIF.Value     = 26
+
+DIF               = C4
+DIF.Extension     = Yes
+DIF.StorageNumber = 1
+DIF.Function      = Instantaneous value
+DIF.Data          = 04
+DATA LENGTH = 4
+DIFE[0]               = 82
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 02
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = BA
+VIF.Extension = Yes
+VIF.Value     = 3A
+VIFE[0]           = 4E
+VIFE[0].Extension = No
+VIFE[0].Value     = 4E
+
+DIF               = C4
+DIF.Extension     = Yes
+DIF.StorageNumber = 1
+DIF.Function      = Instantaneous value
+DIF.Data          = 04
+DATA LENGTH = 4
+DIFE[0]               = 82
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 02
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = BA
+VIF.Extension = Yes
+VIF.Value     = 3A
+VIFE[0]           = 4F
+VIFE[0].Extension = No
+VIFE[0].Value     = 4F
+
+DIF               = D4
+DIF.Extension     = Yes
+DIF.StorageNumber = 1
+DIF.Function      = Minimum value
+DIF.Data          = 04
+DATA LENGTH = 4
+DIFE[0]               = 81
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 01
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 6D
+VIF.Extension = No
+VIF.Value     = 6D
+
+DIF               = DE
+DIF.Extension     = Yes
+DIF.StorageNumber = 1
+DIF.Function      = Minimum value
+DIF.Data          = 0E
+DATA LENGTH = 6
+DIFE[0]               = 81
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 01
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 3A
+VIF.Extension = No
+VIF.Value     = 3A
+
+DIF               = A4
+DIF.Extension     = Yes
+DIF.StorageNumber = 0
+DIF.Function      = Minimum value
+DIF.Data          = 04
+DATA LENGTH = 4
+DIFE[0]               = 81
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 01
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 6D
+VIF.Extension = No
+VIF.Value     = 6D
+
+DIF               = AE
+DIF.Extension     = Yes
+DIF.StorageNumber = 0
+DIF.Function      = Minimum value
+DIF.Data          = 0E
+DATA LENGTH = 6
+DIFE[0]               = 81
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 01
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = 3A
+VIF.Extension = No
+VIF.Value     = 3A
+
+DIF               = CC
+DIF.Extension     = Yes
+DIF.StorageNumber = 1
+DIF.Function      = Instantaneous value
+DIF.Data          = 0C
+DATA LENGTH = 4
+DIFE[0]               = 82
+DIFE[0].Extension     = Yes
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 02
+DIFE[1]               = 00
+DIFE[1].Extension     = No
+DIFE[1].Device        = 0
+DIFE[1].Tariff        = 0
+DIFE[1].StorageNumber = 00
+VIF           = B8
+VIF.Extension = Yes
+VIF.Value     = 38
+VIFE[0]           = 5C
+VIFE[0].Extension = No
+VIFE[0].Value     = 5C
+
+DIF               = 8C
+DIF.Extension     = Yes
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 0C
+DATA LENGTH = 4
+DIFE[0]               = 03
+DIFE[0].Extension     = No
+DIFE[0].Device        = 0
+DIFE[0].Tariff        = 0
+DIFE[0].StorageNumber = 03
+VIF           = A5
+VIF.Extension = Yes
+VIF.Value     = 25
+VIFE[0]           = 6C
+VIFE[0].Extension = No
+VIFE[0].Value     = 6C
+
+DIF               = 01
+DIF.Extension     = No
+DIF.StorageNumber = 0
+DIF.Function      = Instantaneous value
+DIF.Data          = 01
+DATA LENGTH = 1
+VIF           = FD
+VIF.Extension = Yes
+VIF.Value     = 7D
+VIFE[0]           = 17
+VIFE[0].Extension = No
+VIFE[0].Value     = 17
+
+
+ ******** mbus_frame_data_xml ********: 
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+<MBusData>
+
+    <SlaveInformation>
+        <Id>17201880</Id>
+        <Manufacturer>ELR</Manufacturer>
+        <Version>1</Version>
+        <ProductName></ProductName>
+        <Medium>Water</Medium>
+        <AccessNumber>126</AccessNumber>
+        <Status>00</Status>
+        <Signature>0000</Signature>
+    </SlaveInformation>
+
+    <DataRecord id="0">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Volume (m m^3)</Unit>
+        <Value>43868387</Value>
+    </DataRecord>
+
+    <DataRecord id="1">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Volume flow (1e-4  m^3/h)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="2">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Customer location</Unit>
+        <Value>17E0201880  </Value>
+    </DataRecord>
+
+    <DataRecord id="3">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Volume (m m^3)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="4">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Time Point (time &amp; date)</Unit>
+        <Value>2019-03-19T15:22:00</Value>
+    </DataRecord>
+
+    <DataRecord id="5">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>1</StorageNumber>
+        <Unit>Time Point (time &amp; date)</Unit>
+        <Value>2000-00-00T00:00:00</Value>
+    </DataRecord>
+
+    <DataRecord id="6">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>1</StorageNumber>
+        <Unit>Volume (m m^3)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="7">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>External temperature ( deg C)</Unit>
+        <Value>34</Value>
+    </DataRecord>
+
+    <DataRecord id="8">
+        <Function>Maximum value</Function>
+        <StorageNumber>4</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Time Point (time &amp; date)</Unit>
+        <Value>2019-03-12T17:15:00</Value>
+    </DataRecord>
+
+    <DataRecord id="9">
+        <Function>Maximum value</Function>
+        <StorageNumber>4</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>External temperature ( deg C)</Unit>
+        <Value>35</Value>
+    </DataRecord>
+
+    <DataRecord id="10">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Reserved VIF extension</Unit>
+        <Value>3210</Value>
+    </DataRecord>
+
+    <DataRecord id="11">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Operating time (hours)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="12">
+        <Function>Value during error state</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Operating time (hours)</Unit>
+        <Value>2329</Value>
+    </DataRecord>
+
+    <DataRecord id="13">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>5</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Volume flow (1e-4  m^3/h)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="14">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>5</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Volume flow (1e-4  m^3/h)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="15">
+        <Function>Maximum value</Function>
+        <StorageNumber>3</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Time Point (time &amp; date)</Unit>
+        <Value>2000-00-00T00:00:00</Value>
+    </DataRecord>
+
+    <DataRecord id="16">
+        <Function>Maximum value</Function>
+        <StorageNumber>3</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Volume flow (1e-4  m^3/h)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="17">
+        <Function>Minimum value</Function>
+        <StorageNumber>2</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Time Point (time &amp; date)</Unit>
+        <Value>2000-00-00T00:00:00</Value>
+    </DataRecord>
+
+    <DataRecord id="18">
+        <Function>Minimum value</Function>
+        <StorageNumber>2</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Volume flow (1e-4  m^3/h)</Unit>
+        <Value>4294967295</Value>
+    </DataRecord>
+
+    <DataRecord id="19">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>5</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Volume flow (my m^3/h)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="20">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>6</StorageNumber>
+        <Tariff>0</Tariff>
+        <Device>0</Device>
+        <Unit>Operating time (minutes)</Unit>
+        <Value>0</Value>
+    </DataRecord>
+
+    <DataRecord id="21">
+        <Function>Instantaneous value</Function>
+        <StorageNumber>0</StorageNumber>
+        <Unit>Error flags</Unit>
+        <Value>82</Value>
+    </DataRecord>
+
+</MBusData>
